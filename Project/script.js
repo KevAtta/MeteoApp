@@ -1,5 +1,5 @@
 const meteo = {
-  apiKey: "efc79d722ff34276ba5fbd1698d1fb26",
+  apiKey: "[APIKEY]",
   richiediMeteo: function (citta) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
