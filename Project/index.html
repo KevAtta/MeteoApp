@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- defer fa si che lo script venga eseguito dopo il caricamento della pagina -->
+    <script src="script.js" defer></script>
+
+    <title>Meteo app</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="sezione-ricerca">
+        <input
+          type="text"
+          class="barra-ricerca"
+          placeholder="Ricerca località"
+        />
+        <button class="bottone">
+          <ion-icon name="search-outline" class="icona"></ion-icon>
+        </button>
+      </div>
+      <div class="meteo">
+        <h2 class="citta"></h2>
+        <div class="flex">
+          <h1 class="temp">
+            51°C
+            <ion-icon name="thermometer-outline" class="icona-temp"></ion-icon>
+          </h1>
+          <img src="" alt="" class="img" />
+        </div>
+        <div class="descrizione">Cloudy</div>
+        <div class="umidita">Humidity: 60%</div>
+        <div class="vento">Velocità vento: 6.2Km/h</div>
+      </div>
+    </div>
+  </body>
+</html>

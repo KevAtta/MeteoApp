@@ -1,0 +1,105 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.icona {
+  width: 15px;
+  height: 15px;
+}
+
+body {
+  /* width: 300px;
+  margin: 310px auto;
+  background: #222; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+  font-size: 120%;
+}
+
+.app {
+  background: #000000d0;
+  color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 10px;
+}
+
+.sezione-ricerca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  border: none;
+  outline: none;
+  background-color: #7c7c7c2b;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+.barra-ricerca {
+  border: none;
+  outline: none;
+  padding: 8px 40px;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: #fff;
+  font-family: inherit;
+  font-size: 120%;
+  border: 1px solid #fff;
+}
+
+h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icona {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 9px;
+}
+
+.icona-temp {
+  fill: red;
+}
+
+/* per fare prima lettera grande */
+.descrizione {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.meteo {
+  display: none;
+}

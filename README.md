@@ -1,1 +1,1 @@
-# Meteo-app
+Simple weather application created as a practice in using the API.
